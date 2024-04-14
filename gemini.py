@@ -18,14 +18,10 @@ def load_model(api_key ):
 
     return model
 
-def make_prompt(model , prompt, answers = False):
-    response = model.generate_content(prompt)
+def make_prompt(model , prompt):
+    response = model.generate_content(prompt + 'oraz chcę dobra / prawidłowe odpowiedzi  do wszystkich pytań  w jednej liście  w Pythonie' )
     questions = response.text
-    if answers:
-        question_answers =  model.generate_content('Chcę prawidłowe odpowiedzi  do wszystkich pytań  w jednej liście  w Pythonie')
 
-        question_answers = question_answers.text
-        return [questions,  question_answers]
     return questions
 
 #

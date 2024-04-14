@@ -40,7 +40,7 @@ def difficulty_level():
 dif_choice, selected_user_level = difficulty_level()         # uzycie def
 print("twoj poziom zaawansowany jaki wybrales to: ",dif_choice)
 print(selected_user_level)
-imported_prompt = make_prompt(model,selected_user_level,True)
+imported_prompt = make_prompt(model,selected_user_level)
 print(imported_prompt)
 # ans = make_prompt(model,"jaki jest dzien tygodnia")
 # print(ans)
