@@ -80,3 +80,6 @@ print(questions)
 3. **Security and Permissions**: This code uses service account credentials loaded from an environment variable, which is typical for GCP applications to maintain security and manage permissions effectively.
 
 This adaptation closely mirrors your existing workflow but leverages the capabilities and services provided by Google Cloud's Vertex AI. Adjust the code snippets to fit the exact specifications and outputs of your deployed model.
+
+
+# ogarnac to i sporobwac zastosowac
