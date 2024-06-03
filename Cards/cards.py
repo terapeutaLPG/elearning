@@ -3,6 +3,7 @@
 from gemini import load_model,make_prompt
 
 from dotenv import load_dotenv
+
 import os
 # beginner prompt:
 # Wyobraz ze masz taka platforme: Platforma do nauki języków obcych: platformę e-learningową umożliwiającą użytkownikom\n
