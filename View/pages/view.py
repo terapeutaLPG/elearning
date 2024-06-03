@@ -3,12 +3,11 @@ import json
 import os
 import sys
 from dotenv import load_dotenv
-import re
 
 # Dodaj ścieżkę do katalogu API, aby można było zaimportować gemini
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../API')))
 
-from gemini import load_model, make_prompt
+from View.gemini import load_model, make_prompt
 
 # Ładowanie zmiennych środowiskowych
 load_dotenv(os.path.join(os.path.dirname(__file__), '../../.env'))
